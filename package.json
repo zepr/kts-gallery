@@ -1,0 +1,30 @@
+{
+  "name": "kts-gallery",
+  "version": "0.0.1",
+  "description": "Une simple gallerie",
+  "main": "index.html",
+  "scripts": {
+    "build": "webpack"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/zepr/gallery.git"
+  },
+  "keywords": [],
+  "author": "Glenn Sanson",
+  "license": "GPL-3.0-or-later",
+  "devDependencies": {
+    "browser-sync": "^2.24.7",
+    "browser-sync-webpack-plugin": "^2.2.2",
+    "clean-webpack-plugin": "^0.1.19",
+    "copy-webpack-plugin": "^4.5.1",
+    "ts-loader": "^4.2.0",
+    "typescript": "^2.8.3",
+    "webpack": "^4.6.0",
+    "webpack-cli": "^3.1.0"
+  },
+  "dependencies": {
+    "npm": "^6.4.1",
+    "zepr.ts": "^0.2.3"
+  }
+}
